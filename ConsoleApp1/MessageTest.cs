@@ -5,7 +5,7 @@ namespace ConsoleApp1
 {
     public class MessageTest
     {
-        static void Start1()
+       public  void Start1()
         {
             IConnectionMultiplexer connectionMultiplexer = ConnectionMultiplexer.Connect("47.94.140.80:6379");
             ISubscriber subscriber = connectionMultiplexer.GetSubscriber();
@@ -26,7 +26,7 @@ namespace ConsoleApp1
             */
         }
         
-        static void Start2()
+       public  void Start2()
         {
             IConnectionMultiplexer connectionMultiplexer = ConnectionMultiplexer.Connect("47.94.140.80:6379");
             ISubscriber subscriber = connectionMultiplexer.GetSubscriber();

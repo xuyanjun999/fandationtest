@@ -11,11 +11,16 @@ namespace ConsoleApp1
             {
 
 
-                QueueTest queueTest = new QueueTest();
-                queueTest.Start1();
-                queueTest.Start2();
-                CacheTest cacheTest = new CacheTest();
-                cacheTest.Start1();
+                //QueuePersistenceTest queueTest = new QueuePersistenceTest();
+                
+                //queueTest.Start1();
+                //queueTest.Start2();
+                //CacheTest cacheTest = new CacheTest();
+                //cacheTest.Start1();
+                
+                MessageTest messageTest=new MessageTest();
+                messageTest.Start1();
+                messageTest.Start2();
                 Console.WriteLine("Hello World!");
                 Console.ReadKey();
             }

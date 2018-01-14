@@ -16,6 +16,7 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="QueuePersistenceTest.cs" t="Include" />
         <e p="QueueTest.cs" t="Include" />
       </e>
       <e p="ConsoleApp1.sln" t="IncludeFlat" />
