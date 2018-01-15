@@ -1,0 +1,13 @@
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.deps.json
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.json
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.dev.json
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.dll
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.pdb
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfoInputs.cache
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfo.cs
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.dll
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.pdb
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\Foundatio.Redis.dll
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\Foundatio.Redis.pdb

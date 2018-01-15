@@ -4,6 +4,6 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Foundatio.Redis" Version="6.0.1496" />
+    <ProjectReference Include="..\Foundatio.Redis\Foundatio.Redis.csproj" />
   </ItemGroup>
 </Project>
