@@ -1,9 +1,0 @@
-F:\Visual Studio 2017\Projects\fandationtest\Foundatio.Redis\obj\Debug\netstandard2.0\Foundatio.Redis.csprojResolveAssemblyReference.cache
-F:\Visual Studio 2017\Projects\fandationtest\Foundatio.Redis\obj\Debug\netstandard2.0\Foundatio.Redis.csproj.CoreCompileInputs.cache
-F:\Visual Studio 2017\Projects\fandationtest\Foundatio.Redis\obj\Debug\netstandard2.0\Foundatio.Redis.AssemblyInfoInputs.cache
-F:\Visual Studio 2017\Projects\fandationtest\Foundatio.Redis\obj\Debug\netstandard2.0\Foundatio.Redis.AssemblyInfo.cs
-F:\Visual Studio 2017\Projects\fandationtest\Foundatio.Redis\bin\Debug\netstandard2.0\Foundatio.Redis.deps.json
-F:\Visual Studio 2017\Projects\fandationtest\Foundatio.Redis\bin\Debug\netstandard2.0\Foundatio.Redis.dll
-F:\Visual Studio 2017\Projects\fandationtest\Foundatio.Redis\bin\Debug\netstandard2.0\Foundatio.Redis.pdb
-F:\Visual Studio 2017\Projects\fandationtest\Foundatio.Redis\obj\Debug\netstandard2.0\Foundatio.Redis.dll
-F:\Visual Studio 2017\Projects\fandationtest\Foundatio.Redis\obj\Debug\netstandard2.0\Foundatio.Redis.pdb

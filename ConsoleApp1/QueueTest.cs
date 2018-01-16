@@ -14,14 +14,14 @@ namespace ConsoleApp1
             //ISubscriber subscriber = connectionMultiplexer.GetSubscriber();
 
 
-            IQueue<MyWorkItem> queue = new RedisQueue<MyWorkItem>(new RedisQueueOptions<MyWorkItem>()
+            IQueue<SimpleWorkItem> queue = new RedisQueue<SimpleWorkItem>(new RedisQueueOptions<SimpleWorkItem>()
             {
                 ConnectionMultiplexer = (ConnectionMultiplexer)connectionMultiplexer
             });//Queue<SimpleWorkItem>(new InMemoryQueueOptions<SimpleWorkItem>());
 
             for (int i = 0; i < 100; i++)
             {
-                await queue.EnqueueAsync(new MyWorkItem
+                await queue.EnqueueAsync(new SimpleWorkItem
                 {
                     Data = $"Hello   {i}       " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff")
                 });
@@ -41,14 +41,14 @@ namespace ConsoleApp1
             //ISubscriber subscriber = connectionMultiplexer.GetSubscriber();
 
 
-            IQueue<MyWorkItem> queue = new RedisQueue<MyWorkItem>(new RedisQueueOptions<MyWorkItem>()
+            IQueue<SimpleWorkItem> queue = new RedisQueue<SimpleWorkItem>(new RedisQueueOptions<SimpleWorkItem>()
             {
                 ConnectionMultiplexer = (ConnectionMultiplexer)connectionMultiplexer
             });//Queue<SimpleWorkItem>(new InMemoryQueueOptions<SimpleWorkItem>());
 
-           // var DeadletterItems= await queue.GetDeadletterItemsAsync();
-           // var workItem = await queue.DequeueAsync();
-
+            // var DeadletterItems= await queue.GetDeadletterItemsAsync();
+            // var workItem = await queue.DequeueAsync();
+           
 
 
             //Task.Factory.StartNew( async () =>
@@ -59,21 +59,18 @@ namespace ConsoleApp1
             //    await workItem.CompleteAsync();
             //});
 
-            for(int i = 0; i < 10; i++)
+            for (int i = 0; i < 10; i++)
             {
-                Task.Factory.StartNew( async () =>
-                {
+              
                     var workItem2 = await queue.DequeueAsync();
-
-                    //await workItem2.CompleteAsync();
-                    //workItem2.MarkCompleted();
-
+                if (workItem2 != null)
+                {
                     Console.WriteLine($"queue333:{workItem2.Value.Data}");
-                });
-           
+                }
+                    
             }
 
-          
+            Console.WriteLine($" end of this time");
 
 
 
@@ -83,7 +80,7 @@ namespace ConsoleApp1
 
     }
 
-    public class MyWorkItem
+    public class SimpleWorkItem
     {
         public string Data { get; set; }
     }

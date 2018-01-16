@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{4E68175D-4821-4CA5-B5DD-2E812BC1266A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundatio.Redis", "Foundatio.Redis\Foundatio.Redis.csproj", "{5F957BD5-0064-4D8E-BA5B-207B2399CBBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundatio", "Foundatio-6.0.0\src\Foundatio\Foundatio.csproj", "{CFB85CEA-3BDD-4090-BDC1-62BFB45AE760}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundatio.Redis", "Foundatio.Redis-6.0.0\src\Foundatio.Redis\Foundatio.Redis.csproj", "{A4AAD731-1035-43FA-A232-1FBDD3898306}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,14 @@ Global
 		{4E68175D-4821-4CA5-B5DD-2E812BC1266A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E68175D-4821-4CA5-B5DD-2E812BC1266A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E68175D-4821-4CA5-B5DD-2E812BC1266A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F957BD5-0064-4D8E-BA5B-207B2399CBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F957BD5-0064-4D8E-BA5B-207B2399CBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F957BD5-0064-4D8E-BA5B-207B2399CBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F957BD5-0064-4D8E-BA5B-207B2399CBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB85CEA-3BDD-4090-BDC1-62BFB45AE760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB85CEA-3BDD-4090-BDC1-62BFB45AE760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB85CEA-3BDD-4090-BDC1-62BFB45AE760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB85CEA-3BDD-4090-BDC1-62BFB45AE760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4AAD731-1035-43FA-A232-1FBDD3898306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AAD731-1035-43FA-A232-1FBDD3898306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AAD731-1035-43FA-A232-1FBDD3898306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AAD731-1035-43FA-A232-1FBDD3898306}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

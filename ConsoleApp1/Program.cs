@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using StackExchange.Redis;
 
 namespace ConsoleApp1
@@ -10,11 +11,11 @@ namespace ConsoleApp1
             try
             {
 
-
-                QueueTest queueTest = new QueueTest();
+                //System.Collections.Concurrent.
+                //QueueTest queueTest = new QueueTest();
 
                 //queueTest.Start1();
-                queueTest.Start2();
+                //queueTest.Start2();
 
                 //CacheTest cacheTest = new CacheTest();
                 //cacheTest.Start1();

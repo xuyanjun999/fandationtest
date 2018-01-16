@@ -11,3 +11,6 @@ F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\obj\Debug\netcoreapp2.0
 F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.pdb
 F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\Foundatio.Redis.dll
 F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\Foundatio.Redis.pdb
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\Foundatio.dll
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\Foundatio.xml
+F:\Visual Studio 2017\Projects\fandationtest\ConsoleApp1\bin\Debug\netcoreapp2.0\Foundatio.Redis.xml

@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Foundatio.Redis\Foundatio.Redis.csproj" />
+    <ProjectReference Include="..\Foundatio-6.0.0\src\Foundatio\Foundatio.csproj" />
+    <ProjectReference Include="..\Foundatio.Redis-6.0.0\src\Foundatio.Redis\Foundatio.Redis.csproj" />
   </ItemGroup>
 </Project>

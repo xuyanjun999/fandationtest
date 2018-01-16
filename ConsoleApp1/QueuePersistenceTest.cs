@@ -14,12 +14,12 @@ namespace ConsoleApp1
             //ISubscriber subscriber = connectionMultiplexer.GetSubscriber();
             
             
-            IQueue<MyWorkItem> queue = new RedisQueue<MyWorkItem>(new RedisQueueOptions<MyWorkItem>()
+            IQueue<SimpleWorkItem> queue = new RedisQueue<SimpleWorkItem>(new RedisQueueOptions<SimpleWorkItem>()
             {
                  ConnectionMultiplexer = (ConnectionMultiplexer)connectionMultiplexer
             });//Queue<SimpleWorkItem>(new InMemoryQueueOptions<SimpleWorkItem>());
 
-            await queue.EnqueueAsync(new MyWorkItem {
+            await queue.EnqueueAsync(new SimpleWorkItem {
                 Data = "Hello"
             });
 
@@ -34,7 +34,7 @@ namespace ConsoleApp1
             //ISubscriber subscriber = connectionMultiplexer.GetSubscriber();
             
             
-            IQueue<MyWorkItem> queue = new RedisQueue<MyWorkItem>(new RedisQueueOptions<MyWorkItem>()
+            IQueue<SimpleWorkItem> queue = new RedisQueue<SimpleWorkItem>(new RedisQueueOptions<SimpleWorkItem>()
             {
                 ConnectionMultiplexer = (ConnectionMultiplexer)connectionMultiplexer
             });//Queue<SimpleWorkItem>(new InMemoryQueueOptions<SimpleWorkItem>());
